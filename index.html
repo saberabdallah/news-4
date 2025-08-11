@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="">
+        <link rel="icon" href="logo/yemen.png">
+        <title>حضرموت الأخبارية</title>
+
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/style-index.css">
+
+    </head>
+
+    <body>
+        <!-- شريط التنقل العلوي -->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top py-3">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <i class="fa-solid fa-globe fa-2x  ms-2 "></i>حضرموت<br>الاخبارية
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-2 fs-5">
+                            <a class="nav-link " href="index.html">الرئيسية</a>
+                        </li>
+                        <li class="nav-item mx-2 fs-5">
+                            <a class="nav-link" href="Governorate.html">المحافظة</a>
+                        </li>
+                        <li class="nav-item mx-2 fs-5">
+                            <a class="nav-link" href="section.html">أقتصاد</a>
+                        </li>
+                        <li class="nav-item mx-2 fs-5">
+                        <a class="nav-link" href="#">ثقافة</a>
+                        </li>
+                        <li class="nav-item mx-2 fs-5">
+                            <a class="nav-link" href="#">رياضة</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex ms-3">
+                        <div class="input-group">
+                            <input class="form-control bg-dark text-light " type="search" placeholder="أبحث.." aria-label="Search">
+                            <button class="btn btn-search " type="submit">
+                                <i class="fas fa-search " style="color: beige;"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- الأخبار العاجلة -->
+        <div class="breaking-news">
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <span class="badge bg-white text-danger py-2 px-3 me-3">عاجل</span>
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-bolt mx-2"></i>
+                        <span>وزير الخارجية يلتقي نظيره الروسي في موسكو لبحث تطورات الأوضاع في المنطقة</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container my-5">
+            <!-- أخبار مميزة -->
+            <div class="featured-news" >
+                <span class="badge bg-danger py-2 px-3 mb-3">أهم الأخبار</span>
+                <h1 class="fw-bold mb-3" >الريال اليمني يتعافى في عدن... تراجع قياسي للدولار والريال السعودي خلال أربعة أيام</h1>
+                <p class="mb-4">بين الأربعاء 30 تمّوز/يوليو والأحد 3 آب/أغسطس 2025، سجل الريال اليمني تحسناً كبيراً إذ انخفض سعر صرف الريال السعودي مقابل الريال اليمني من 780 ريالاً إلى 420 ريالاً. </p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <!-- <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle me-2" width="36" height="36" alt="كاتبة"> -->
+                    <!-- <span class="me-3">سارة محمد</span> -->
+                    <span><i class="far fa-clock me-1 ms-2"></i>قبل 4 ساعات</span>
+                </div>
+                <a href="details-news.html" class="btn btn-sm btn-primary mt-3">قراءة المزيد</a>
+            </div>
+
+            <!-- أخبار حسب التصنيف -->
+            <div class="row mb-5">
+                <div class="col-md-8">
+                    <div class="row">
+
+                        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="news-card card">
+                                <span class="category-badge">ثقافة</span>
+                                <img src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=600&h=300" class="card-img-top" alt="ثقافة">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">معرض الكتاب يستقطب مليون زائر</h5>
+                                    <p class="card-text text-light">استقطب معرض الكتاب الدولي أكثر من مليون زائر في دورته الحالية بمشاركة 50 دولة.</p>
+                                    <div class="d-flex justify-content-between align-items-center mt-3">
+                                        <small class="text-light"><i class="far fa-clock ms-1"></i>أمس</small>
+                                        <a href="details-news.html" class="btn btn-sm btn-primary">قراءة المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="news-card card">
+                                <span class="category-badge">رياضة</span>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8DnK6O3x8EQVb5EcumtCzpfBTINu2Y43gW_VVui8Jddy_4_8iw28CueZLWpk0qQY04L4&usqp=CAU" class="card-img-top" alt="رياضة">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">فوز المنتخب الوطني على نظيره الإسباني</h5>
+                                    <p class="card-text text-light">حقق المنتخب الوطني فوزاً تاريخياً على المنتخب الإسباني بنتيجة 2-1 في مباراة مثيرة.</p>
+                                    <div class="d-flex justify-content-between align-items-center mt-3">
+                                        <small class="text-light "><i class="far fa-clock ms-1"></i>قبل 5 ساعات</small>
+                                        <a href="details-news.html" class="btn btn-sm btn-primary">قراءة المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="news-card card">
+                                <span class="category-badge">تكنولوجيا</span>
+                                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&h=300" class="card-img-top" alt="تكنولوجيا">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">إطلاق هاتف ذكي بميزات رائدة</h5>
+                                    <p class="card-text text-light">أعلنت شركة "تكنو" العالمية عن إطلاق الجيل الجديد من هواتفها الذكية بميزات متطورة.</p>
+                                    <div class="d-flex justify-content-between align-items-center mt-3">
+                                        <small class="text-light"><i class="far fa-clock ms-1"></i>قبل 7 ساعات</small>
+                                        <a href="details-news.html" class="btn btn-sm btn-primary">قراءة المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="news-card card">
+                                <span class="category-badge">رياضة</span>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8DnK6O3x8EQVb5EcumtCzpfBTINu2Y43gW_VVui8Jddy_4_8iw28CueZLWpk0qQY04L4&usqp=CAU" class="card-img-top" alt="رياضة">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">فوز المنتخب الوطني على نظيره الإسباني</h5>
+                                    <p class="card-text text-light">حقق المنتخب الوطني فوزاً تاريخياً على المنتخب الإسباني بنتيجة 2-1 في مباراة مثيرة.</p>
+                                    <div class="d-flex justify-content-between align-items-center mt-3">
+                                        <small class="text-light "><i class="far fa-clock ms-1"></i>قبل 5 ساعات</small>
+                                        <a href="details-news.html" class="btn btn-sm btn-primary">قراءة المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-4"data-aos="fade-up" data-aos-delay="300">
+                            <div class="news-card card">
+                                <span class="category-badge">اقتصاد</span>
+                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=300" class="card-img-top" alt="اقتصاد">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">ارتفاع مؤشرات البورصة بنسبة 3.5%</h5>
+                                    <p class="card-text text-light">سجلت البورصة المحلية ارتفاعاً ملحوظاً بنسبة 3.5% بعد إعلان الشركات عن نتائج مالية قوية.</p>
+                                    <div class="d-flex justify-content-between align-items-center mt-3">
+                                        <small class="text-light"><i class="far fa-clock ms-1"></i>قبل 9 ساعات</small>
+                                        <a href="details-news.html" class="btn btn-sm btn-primary">قراءة المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 mb-4"data-aos="fade-up" data-aos-delay="300">
+                            <div class="news-card card">
+                                <span class="category-badge">ثقافة</span>
+                                <img src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=600&h=300" class="card-img-top" alt="ثقافة">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">معرض الكتاب يستقطب مليون زائر</h5>
+                                    <p class="card-text text-light">استقطب معرض الكتاب الدولي أكثر من مليون زائر في دورته الحالية بمشاركة 50 دولة.</p>
+                                    <div class="d-flex justify-content-between align-items-center mt-3">
+                                        <small class="text-light"><i class="far fa-clock ms-1"></i>أمس</small>
+                                        <a href="details-news.html" class="btn btn-sm btn-primary">قراءة المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="news-ticker">
+                        <h4 class="section-title">آخر الأخبار</h4>
+                        <ul class="trending-list">
+
+                            <li>
+                                <a href="#" class="text-decoration-none text-light d-flex align-items-center">
+                                    <span class="trending-badge">1</span>
+                                    <span>الحكومة تعلن عن حزمة تحفيزية بقيمة 2 مليار دولار</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-decoration-none text-light d-flex align-items-center">
+                                    <span class="trending-badge">2</span>
+                                    <span>انخفاض درجات الحرارة إلى أدنى مستوياتها</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-decoration-none text-light d-flex align-items-center">
+                                    <span class="trending-badge">3</span>
+                                    <span>بدء توزيع اللقاح الجديد خلال أسبوعين</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-decoration-none text-light d-flex align-items-center">
+                                    <span class="trending-badge">4</span>
+                                    <span>الحكومة تعلن عن حزمة تحفيزية بقيمة 2 مليار دولار</span>
+                                </a>
+                            </li>
+
+                            <li>
+
+                                <a href="#" class="text-decoration-none text-light d-flex align-items-center">
+                                    <span class="trending-badge">5</span>
+                                    <span>اكتشاف آثار مدينة تاريخية تعود للعصر الحجري</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-decoration-none text-light d-flex align-items-center">
+                                    <span class="trending-badge">6</span>
+                                    <span>انطلاق فعاليات المهرجان السينمائي الدولي</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="text-decoration-none text-light d-flex align-items-center">
+                                    <span class="trending-badge">7</span>
+                                    <span>توقيع اتفاقية تعاون بين الجامعات المحلية والدولية</span>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="news-ticker">
+                        <h4 class="section-title">الأكثر قراءة</h4>
+                        <div class="list-group bg-transparent">
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent text-light py-3">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h6 class="mb-1 fw-bold">تقرير: مستقبل العمل عن بعد بعد الجائحة</h6>
+                                    <small>قبل يومين</small>
+                                </div>
+                                <small class="text-light">اقتصاد</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent text-light py-3">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h6 class="mb-1 fw-bold">أطعمة تقوي المناعة في الشتاء</h6>
+                                    <small>قبل 3 أيام</small>
+                                </div>
+                                <small class="text-light">صحة</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent text-light py-3">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h6 class="mb-1 fw-bold">أفضل الجامعات لدراسة الذكاء الاصطناعي</h6>
+                                    <small>قبل 4 أيام</small>
+                                </div>
+                                <small class="text-light">تعليم</small>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- أخبار الفيديو -->
+            <!-- <div class="row mb-5">
+                <div class="col-12">
+                    <h3 class="section-title">أخبار الفيديو</h3>
+                </div>
+                
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="news-card card">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?auto=format&fit=crop&w=600&h=250" class="card-img-top" alt="فيديو">
+                            <a class="video-play-btn" href="https://youtu.be/U2BbpF-1Gow" target="_blank">
+                                <i class="fas fa-play text-white fs-4"></i>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">زيارة الرئيس للمنطقة الصناعية</h5>
+                            <p class="card-text text-light">تغطية حصرية لزيارة الرئيس للمنطقة الصناعية الجديدة.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="news-card card">
+                        <div class="position-relative">
+                            <img src="https://www.aljazeera.net/wp-content/uploads/2025/06/%D8%B1%D8%A7%D9%85%D8%A7%D8%AA-%D8%AC%D8%A7%D9%86-1749880606.jpg?w=770&resize=770%2C513&quality=80" class="card-img-top" alt="فيديو">
+                            <div class="video-play-btn">
+                                <i class="fas fa-play text-white fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold"> بالفديو من تدمير اسرائيل</h5>
+                            <p class="card-text text-light">استيقظت إسرائيل فجر اليوم السبت على مشاهد الدمار بعد موجة صواريخ إيرانية هي الأوسع منذ سنوات</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="news-card card">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=600&h=250" class="card-img-top" alt="فيديو">
+                            <div class="video-play-btn">
+                                <i class="fas fa-play text-white fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">افتتاح أطول جسر بحري</h5>
+                            <p class="card-text text-light">بث مباشر لمراسم افتتاح أطول جسر بحري في المنطقة.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+
+
+        <!-- footer-->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class=" col-12 col-lg-6 mb-4">
+                        <a class="navbar-brand d-flex align-items-center text-white fs-6 mb-2" href="####">
+                            <i class="fa-solid fa-globe fs-2 ms-2 "></i>حضرموت<br>الاخبارية
+                        </a>
+                        
+                        <p class="mb-4">منصة إخبارية متكاملة تقدم لكم آخر الأخبار على مدار الساعة.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <!-- <a href="#"><i class="fab fa-instagram"></i></a> -->
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <!-- <a href="#"><i class="fab fa-telegram"></i></a> -->
+                        </div>
+                    </div>
+                    
+                    <div class="col-6 col-lg-3  my-4">
+                        <h4 class="mb-4">الأقسام</h4>
+                        <ul class=" dep-foter list-unstyled p-0">
+                            <li class="mb-2"><a href="#" class="">القائمة الرئيسية</a></li>
+                            <li class="mb-2"><a href="#" class="">أخبار المحافظة</a></li>
+                            <li class="mb-2"><a href="section.html" target="_blank" class="">أخبار الأقتصاد</a></li>
+                            <li class="mb-2"><a href="#" class="">أخبار الثقافة</a></li>
+                            <li class="mb-2"><a href="#" class="">أخبار الرياضة</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-6 col-lg-3 my-4">
+                        <h4 class="mb-4">روابط مهمة</h4>
+                        <ul class="dep-link-foter list-unstyled p-0">
+                            <li class="mb-2"><a href="#" class=>عن المنصة</a></li>
+                            <li class="mb-2"><a href="#" class=>اتصل بنا</a></li>
+                            <li class="mb-2"><a href="#" class=>سياسة الخصوصية</a></li>
+                            <li class="mb-2"><a href="#" class=>شروط الاستخدام</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- <div class="col-lg-3 col-md-4 mb-4">
+                        <div class="subscribe-form">
+                            <h5 class="mb-3">النشرة الإخبارية</h5>
+                            <p class="mb-4">اشترك ليصلك أهم الأخبار مباشرة إلى بريدك</p>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control bg-light border-0 py-2" placeholder="بريدك الإلكتروني">
+                                </div>
+                                <button class="btn btn-dark w-100 fw-bold py-2">اشتراك الآن</button>
+                            </form>
+                        </div>
+                    </div> -->
+
+                </div>
+                
+                <hr class="my-4" style="background: rgba(255,255,255,0.2);">
+                
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-0">© 2023 حضرموت الأخبارية جميع الحقوق محفوظة.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="mb-0">تم التطوير بواسطة: <a href="#" class=>فريق التطوير</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+    <script>
+        // تحديد رابط الصفحة الحالي
+        const currentPage = window.location.pathname.split("/").pop(); // مثلاً "section.html"
+
+        // اختيار جميع الروابط داخل .nav-link
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        navLinks.forEach(link => {
+            const linkPage = link.getAttribute("href");
+
+            // إذا كان الرابط يطابق اسم الصفحة الحالية
+            if (linkPage === currentPage) {
+                link.classList.add("active");
+            } else {
+                link.classList.remove("active");
+            }
+        });
+    </script>
+
+
+
+        
+        
+        
+        
+        
+
+        <script src="js/aos.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/all.min.js"></script>
+
+        <!-- <script src="js/one.js"></script> -->
+
+    </body>
+</html>
